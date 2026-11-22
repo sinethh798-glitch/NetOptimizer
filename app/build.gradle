@@ -1,0 +1,16 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'com.netoptimizer.app'
+    compileSdk 35
+
+    defaultConfig {
+        applicationId 'com.netoptimizer.app'
+        minSdk 23
+        targetSdk 35
+        versionCode 8
+        versionName '8.0'
+    }
+}
